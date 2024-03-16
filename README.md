@@ -6,7 +6,6 @@
 
 </h1>
 
-![icon](favicon-32x32.png?raw=true)
 markup is [valid](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftressley.github.io%2F_traichu%2Findex.html) and aims to adhere to HTML semantics. [Traditional Japanese](https://www.nipponcolors.com), [WCAG 2.0](https://www.w3.org/TR/WCAG20/) compliant colors make up the color palette. The monospace font is ol' [Fira Code](https://fonts.google.com/specimen/Fira+Code) loaded via [Google Fonts](https://fonts.google.com). Icons are bogstandard pngs (look look ill update this later ok), [DuckDuckGo's API](https://icons.duckduckgo.com/ip3/duckduckgo.com.ico) delivers the favicons, and [OpenWeather's API](https://openweathermap.org) provides the weather forecast and icons. Vanilla JavaScript and CSS handle all interactivity.
 
 [Brave](https://search.brave.com/) is the default search engine because privacy is important 'round here.
