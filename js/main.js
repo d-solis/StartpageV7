@@ -1,4 +1,4 @@
-const apiKey = ''; // OpenWeather API key | USE YOURS!!
+const apiKey = 'e49ae78c30d6e842a2841907db176af6'; // OpenWeather API key | USE YOURS!!
 
 function dateTime() {
     const date = new Date();
