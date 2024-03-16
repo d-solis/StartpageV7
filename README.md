@@ -13,7 +13,7 @@ markup is [valid](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftressley.github
 ⚠️ **You will need to generate your own OpenWeather API key!**
 1. [Register for an OpenWeather account](https://home.openweathermap.org/users/sign_up) (OpenWeather will generate a default API key)
 2. Sign in and navigate to Username > API keys and copy the key
-3. Paste the key into [`line 1`](https://github.com/Tressley/_traichu/blob/3f2d695a4677f2a99c2c112fd11d01d71d6a05e9/js/main.js#L10) of `main.js`
+3. Paste the key into line 1 of `main.js`
 4. Don't forget to allow location access to get your weather!
 
 **Things changed/revamped for my needs**
