@@ -166,8 +166,8 @@ aside svg { height: 4.5rem; }
 
 #search input:focus {
     background-color: hsl(var(--color-white-hsl) / 0.025);
-    border-color: var(--color-orange);
-    outline-color: hsl(var(--color-orange-hsl) / 0.25);
+    border-color: var(--color-green);
+    outline-color: hsl(var(--color-green-hsl) / 0.25);
 }
 
 #bookmarks {

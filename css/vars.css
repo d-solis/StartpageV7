@@ -12,6 +12,8 @@
     --color-orange: hsl(var(--color-orange-hsl));
     --color-white-hsl: 60 100% 99%; /* #FFFFFC */
     --color-white: hsl(var(--color-white-hsl));
+    --color-green-hsl: 99 42% 58%; /* #86C166 */
+    --color-green: hsl(var(--color-green-hsl));
 
     /* Font-families */
     --font-monospace: "Fira Code", ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
