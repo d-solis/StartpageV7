@@ -10,7 +10,12 @@ markup is [valid](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftressley.github
 4. Don't forget to allow location access to get your weather!
 
 **Things changed/revamped for my needs**
-1. Revamped `main.js` for better use when traveling, instead of having to manually put the city id of your city all you have to do is allow access to your location, this approach is way better when traveling
+1. Revamped `main.js` for better use when traveling, instead of having to manually put the city id of your city all you have to do is allow access to your location.
 2. cleaned up some of the code
 3. Adjusted dock and bookmarks
 4. I also changed the search engine from duckduckgo to brave
+5. changed one color lmfaoooo
+
+![darkmode](https://github.com/d-solis/StartpageV7/assets/43517199/4d7368ca-51f0-4ab3-be28-eb20aa968e42)
+
+Im too lazy to take a pic of light mode lmfaooo
