@@ -47,7 +47,7 @@
 /* Light Mode */
 @media (prefers-color-scheme: light) {
     :root {
-        --primary-background-color: hsl(var(--color-black-hsl) / 0.075);
+        --primary-background-color: hsl(var(--color-white-hsl) / 0.075);
         --primary-font-color: hsl(var(--color-black-hsl) / 0.75);
         --primary-link-color: hsl(var(--color-black-hsl) / 0.75);
         --primary-link-hover-color: var(--color-black);
