@@ -1,19 +1,43 @@
 :root {
     /*
-    Colors - pulled from https://nipponcolors.com
-
-    HSL(a) is used for better control.
-    https://css-tricks.com/hsl-hsla-is-great-for-programmatic-color-control/
-    https://css-tricks.com/color-alpha-anywhere/
+    Colors - pulled from Decay CS palettes
     */
-    --color-black-hsl: 0 0% 11%; /* #1C1C1C */
-    --color-black: hsl(var(--color-black-hsl));
-    --color-orange-hsl: 19 88% 53%; /* #F05E1C */
-    --color-orange: hsl(var(--color-orange-hsl));
-    --color-white-hsl: 0 0% 92%; /* #EAEAEA */
-    --color-white: hsl(var(--color-white-hsl));
-    --color-green-hsl: 99 42% 58%; /* #86C166 */
-    --color-green: hsl(var(--color-green-hsl));
+    --decay-background: var(--decay-background-5);
+    --decay-foreground: var(--decay-foreground);
+    --decay-red: var(--decay-red);
+    --decay-green: var(--decay-green);
+    --decay-yellow: var(--decay-yellow);
+    --decay-blue: var(--decay-blue);
+    --decay-magenta: var(--decay-magenta);
+    --decay-cyan: var(--decay-cyan);
+
+    /* Dark Decay palette */
+    --decay-background-5: #040405;
+    --decay-background-4: #07080a;
+    --decay-background-3: #0a0c0f;
+    --decay-background-2: #0d1014;
+    --decay-background-1: #101419;
+    --decay-foreground-5: #6b7078;
+    --decay-foreground-4: #777c85;
+    --decay-foreground-3: #8c929c;
+    --decay-foreground-2: #a1a8b3;
+    --decay-foreground-1: #b6beca;
+    --decay-red: #e05f65;
+    --decay-green: #78dba9;
+    --decay-yellow: #f1cf8a;
+    --decay-blue: #70a5eb;
+    --decay-magenta: #c68aee;
+    --decay-cyan: #74bee9;
+
+    /* Light Decay palette */
+    --light-decay-background: #dee1e6;
+    --light-decay-foreground: #101419;
+    --light-decay-red: #bd3c42;
+    --light-decay-green: #69b373;
+    --light-decay-yellow: #ceac67;
+    --light-decay-blue: #4d82c8;
+    --light-decay-magenta: #a367cb;
+    --light-decay-cyan: #519bc6;
 
     /* Font-families */
     --font-monospace: "Fira Code", ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
@@ -31,25 +55,24 @@
 
     /* SVGs */
     --svg-search-gray: url('data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iIzUyNTI1MiIgZD0iTTMyLDI5LjU4bC05LjQ3LTkuNDdjMS42LTIuMTEsMi41Ni00LjcyLDIuNTYtNy41NkMyNS4wOSw1LjYzLDE5LjQ2LDAsMTIuNTQsMFMwLDUuNjMsMCwxMi41NHM1LjYzLDEyLjU0LDEyLjU0LDEyLjU0YzIuODQsMCw1LjQ2LS45Niw3LjU2LTIuNTZsOS40Nyw5LjQ3LDIuNDItMi40MlpNMy40MiwxMi41NEMzLjQyLDcuNTEsNy41MSwzLjQyLDEyLjU0LDMuNDJzOS4xMiw0LjA4LDkuMTIsOS4xMi00LjA4LDkuMTItOS4xMiw5LjEyUzMuNDIsMTcuNTgsMy40MiwxMi41NFoiLz48L3N2Zz4=');
-    --svg-search-light-gray: url('data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iIzg3ODc4NyIgZD0iTTMyLDI5LjU4bC05LjQ3LTkuNDdjMS42LTIuMTEsMi41Ni00LjcyLDIuNTYtNy41NkMyNS4wOSw1LjYzLDE5LjQ2LDAsMTIuNTQsMFMwLDUuNjMsMCwxMi41NHM1LjYzLDEyLjU0LDEyLjU0LDEyLjU0YzIuODQsMCw1LjQ2LS45Niw3LjU2LTIuNTZsOS40Nyw5LjQ3LDIuNDItMi40MlpNMy40MiwxMi41NEMzLjQyLDcuNTEsNy41MSwzLjQyLDEyLjU0LDMuNDJzOS4xMiw0LjA4LDkuMTIsOS4xMi00LjA4LDkuMTItOS4xMiw5LjEyUzMuNDIsMTcuNTgsMy40MiwxMi41NFoiLz48L3N2Zz4=');
 }
 
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
     :root {
-        --primary-background-color: var(--color-black);
-        --primary-font-color: var(--color-white);
-        --primary-link-color: hsl(var(--color-white-hsl) / 0.5);
-        --primary-link-hover-color: var(--color-white);
+        --primary-background-color: var(--decay-background);
+        --primary-font-color: var(--decay-foreground);
+        --primary-link-color: var(--decay-blue);
+        --primary-link-hover-color: var(--decay-blue);
     }
 }
 
 /* Light Mode */
 @media (prefers-color-scheme: light) {
     :root {
-        --primary-background-color: hsl(var(--color-white-hsl) / 0.075);
-        --primary-font-color: hsl(var(--color-black-hsl) / 0.75);
-        --primary-link-color: hsl(var(--color-black-hsl) / 0.75);
-        --primary-link-hover-color: var(--color-black);
+        --primary-background-color: var(--light-decay-background);
+        --primary-font-color: var(--light-decay-foreground);
+        --primary-link-color: var(--light-decay-blue);
+        --primary-link-hover-color: var(--light-decay-blue);
     }
 }
